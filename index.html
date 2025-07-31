@@ -3,61 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PLP HTML ASSIGNMENT</title>
+    <meta
+      name="description"
+      content="Learn to code with beginner-friendly, accessible, and SEO-optimized programming courses including HTML5, CSS3, JavaScript, Python, and more."
+    />
+    <meta
+      name="keywords"
+      content="HTML5, CSS3, JavaScript, Python, SQL, Java, Web Development, Coding, Accessible Web Design"
+    />
+    <meta name="author" content="Brenda Kiragu" />
+    <title>Code Ninja Academy</title>
   </head>
   <body>
-    <header>Welcome to my semantic page</header>
-    <!-- this is a website for code ninja classes -->
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Classes</li>
-        <li>Sign Up</li>
-      </ul>
-    </nav>
-    <body>
+    <header>
+      <h1>Code Ninja Academy</h1>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
       <section id="home">
-        <h2>Hello there code ninja. Welcome to code ninja dojo</h2>
+        <h2>Hello there Future Code Ninja.</h2>
+        <h4>Welcome to the Code Ninja Dojo.</h4>
+        <figure>
+          <img
+            src="ninja-hero.avif"
+            alt="A ninja wearing Virtual reality goggles holding pink neon lights"
+          />
+          <figcaption>
+            A ninja wearing Virtual reality goggles holding pink neon lights
+          </figcaption>
+        </figure>
         <p>
           Here we transform you from zero coding skills to a pro web developer.
           Whether it is your first time learning a programming language or you
           are a seasoned developer looking to update your skills, we have a
-          package to suit your needs. The first 10 classes are on the house to
-          help you figure out if a course is right for you. Then from there, you
-          get access to unlimited content for tje price of a cup of coffee.
+          package to suit your needs. The first 10 lessons of every course are
+          free to help you decide before you commit. From there, get unlimited
+          access for the price of a cup of coffee.
         </p>
-        <h3>
-          Curious to dive in? Click <a href="#classes">here</a> to see the
-          available courses
-        </h3>
+        <h4>
+          Curious to dive in? Let's make you the next
+          <a href="#courses">Elon-Musk</a> with our courses.
+        </h4>
+        <blockquote>
+          <i>
+            I taught myself how to program computers when I was a kid, bought my
+            first computer when I was 10, and sold my first commercial program
+            when I was 12. ~ Elon Musk
+          </i>
+        </blockquote>
       </section>
+
       <section id="about">
-        <article>Blog1</article>
+        <article>
+          <h3>Who We Are</h3>
+          <p>
+            Ninja Coders is a passionate community of developers dedicated to
+            helping beginners become confident programmers. Whether you're
+            looking to start a new career in tech, build a freelance business,
+            or simply understand how the digital world works, we’re here to
+            guide you every step of the way.
+          </p>
+        </article>
+        <article>
+          <h3>What Makes Us Different</h3>
+          <p>
+            Our approach is simple and effective — we offer beginner-friendly
+            lessons in HTML5, CSS3, JavaScript, Python, and SQL, all delivered
+            in a fun, interactive format. With a mix of theory, real-world
+            projects, and mentorship, we make learning to code accessible and
+            enjoyable. The first 10 lessons of each course are free so you can
+            explore without pressure.
+          </p>
+        </article>
       </section>
-      <section id="classes">
-        <ol>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>SQL</li>
-        </ol>
+
+      <section id="courses">
+        <h2>Explore Our Coding Courses</h2>
+
+        <details>
+          <summary><strong>HTML5</strong></summary>
+          <p>
+            Learn the structure of the web. This course introduces HTML5 for
+            building semantic, accessible, and responsive websites. You'll
+            master elements, forms, multimedia embedding, and more.
+          </p>
+        </details>
+
+        <details>
+          <summary><strong>CSS3</strong></summary>
+          <p>
+            Master modern web styling techniques including Flexbox, Grid,
+            transitions, animations, and responsive design. Build sleek,
+            mobile-friendly web layouts using CSS3.
+          </p>
+        </details>
+
+        <details>
+          <summary><strong>JavaScript</strong></summary>
+          <p>
+            Start from JavaScript fundamentals like variables, loops, and
+            functions, and progress to manipulating the DOM, handling events,
+            ES6 features, and asynchronous programming.
+          </p>
+        </details>
+
+        <details>
+          <summary><strong>Python</strong></summary>
+          <p>
+            Build a strong Python foundation covering data types, conditionals,
+            loops, functions, and modules. Projects include web scraping, file
+            automation, and beginner app development.
+          </p>
+        </details>
+
+        <details>
+          <summary><strong>Java</strong></summary>
+          <p>
+            Understand Java's syntax, object-oriented programming, and core
+            libraries. Learn to build Java applications and explore frameworks
+            like Spring for backend development.
+          </p>
+        </details>
+
+        <details>
+          <summary><strong>SQL</strong></summary>
+          <p>
+            Learn to query databases using SQL. Topics include SELECT, INSERT,
+            JOINs, filtering, aggregation, and writing queries for real-world
+            data analysis.
+          </p>
+        </details>
       </section>
-      <!-- Sign up form -->
-      <section id="sign_up">
-        <form action="submit">
-          <label for="first_name">First Name</label>
-          <input type="text" name="first_name" id="first_name" />
-          <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" id="last_name" />
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-        </form>
-        <button type="submit">Submit</button>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📧 Email: support@codeacademybasic.com</p>
+        <p>📍 Address: 123 Learn Lane, Nairobi, Kenya</p>
       </section>
-    </body>
-    <footer>&copy; 2025 Code Ninjas</footer>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 CodeAcademy Basics. All rights reserved.</p>
+    </footer>
   </body>
 </html>
